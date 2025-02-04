@@ -12,11 +12,19 @@
       <router-link v-if="$route.name !== 'Home'" to="/" class="home-button">Inicio</router-link>
     </header>
     <router-view/>
+    <BackToTop />
   </div>
 </template>
 
 <script>
+
+import BackToTop from './components/BackToTop.vue';
+
 export default {
+  name: 'App',
+  components: {
+    BackToTop
+  },
   computed: {
     trainingDayTitle() {
       // Mapeo de ID de entrenamiento a título (ajusta según tus datos)
@@ -34,10 +42,18 @@ export default {
 </script>
 
 <style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 .app-header {
   background-color: #333;
   color: white;
   padding: 1rem;
+  font-size: 0.8rem;
+  padding-bottom: 2rem;
 }
 
 .header-container {
