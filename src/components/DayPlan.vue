@@ -159,11 +159,11 @@ export default {
             {
               titulo: 'Día 1 - Piernas y Glúteos (Fuerza básica)',
               ejercicios: [
-                { nombre: 'Sentadilla goblet (con mancuerna o kettlebell)', detalles: '3x12-15' },
-                { nombre: 'Puente de glúteos (con peso opcional)', detalles: '3x15-20' },
-                { nombre: 'Zancadas alternas', detalles: '3x10 cada pierna' },
-                { nombre: 'Elevaciones de talones (gemelos)', detalles: '3x15' },
-                { nombre: 'Plancha lateral con abducción de pierna', detalles: '3x12 por lado' }
+                { nombre: 'Sentadilla goblet (con mancuerna o kettlebell)', detalles: '3x12-15 reps.' },
+                { nombre: 'Puente de glúteos (con peso opcional)', detalles: '3x15-20 reps.' },
+                { nombre: 'Zancadas alternas', detalles: '3x10 reps. cada pierna' },
+                { nombre: 'Elevaciones de talones (gemelos)', detalles: '3x15 reps.' },
+                { nombre: 'Plancha lateral con abducción de pierna', detalles: '3x12 reps. por lado' }
               ],
               timer: false
             },
@@ -171,19 +171,19 @@ export default {
               titulo: 'Día 2 - Core y Tren Superior (Complementario)',
               ejercicios: [
                 { nombre: 'Plancha frontal', detalles: '3x30-45 segundos' },
-                { nombre: 'Press de hombros con mancuernas', detalles: '3x12' },
-                { nombre: 'Remo con bandas elásticas o mancuerna', detalles: '3x12' },
-                { nombre: 'Elevaciones laterales con mancuernas', detalles: '3x15' },
-                { nombre: 'Abdominales bicicleta', detalles: '3x20 (10 por lado)' }
+                { nombre: 'Press de hombros con mancuernas', detalles: '3x12 reps.' },
+                { nombre: 'Remo con bandas elásticas o mancuerna', detalles: '3x12 reps.' },
+                { nombre: 'Elevaciones laterales con mancuernas', detalles: '3x15 reps.' },
+                { nombre: 'Abdominales bicicleta', detalles: '3x20 (10 reps. por lado)' }
               ],
               timer: false
             },
             {
               titulo: 'Día 3 - Piernas y Glúteos (Resistencia y Estabilidad)',
               ejercicios: [
-                { nombre: 'Sentadilla búlgara (con pie trasero elevado)', detalles: '3x10 cada pierna' },
-                { name: 'Hip thrust (puente de glúteos con espalda apoyada)', detalles: '3x12' },
-                { nombre: 'Peso muerto rumano con mancuernas', detalles: '3x12' },
+                { nombre: 'Sentadilla búlgara (con pie trasero elevado)', detalles: '3x10 reps. cada pierna' },
+                { name: 'Hip thrust (puente de glúteos con espalda apoyada)', detalles: '3x12 reps.' },
+                { nombre: 'Peso muerto rumano con mancuernas', detalles: '3x12 reps.' },
                 { nombre: 'Monster Walk con banda elástica', detalles: '3x20 pasos' },
                 { nombre: 'Skipping (rodillas arriba) o saltos suaves', detalles: '3x20 segundos' }
               ],
@@ -192,10 +192,10 @@ export default {
             {
               titulo: 'Día 4 - Movilidad, Coordinación y Trabajo Funcional',
               ejercicios: [
-                { nombre: 'Sentadilla con salto controlado', detalles: '3x10' },
-                { nombre: 'Step-ups en banco o escalón alto', detalles: '3x12 cada pierna' },
-                { nombre: 'Puente de glúteos con una pierna', detalles: '3x12 por lado' },
-                { nombre: 'Desplazamientos laterales con banda elástica', detalles: '3x12 cada lado' },
+                { nombre: 'Sentadilla con salto controlado', detalles: '3x10 reps.' },
+                { nombre: 'Step-ups en banco o escalón alto', detalles: '3x12 reps. cada pierna' },
+                { nombre: 'Puente de glúteos con una pierna', detalles: '3x12 reps. por lado' },
+                { nombre: 'Desplazamientos laterales con banda elástica', detalles: '3x12 reps. cada lado' },
                 { nombre: 'Trabajo de movilidad: estiramientos dinámicos y foam roller', detalles: '' }
               ],
               timer: false
