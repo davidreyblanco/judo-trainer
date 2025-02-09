@@ -1,13 +1,33 @@
 <template>
-    <div class="home">
-      <h2>Seleccione un día de entrenamiento</h2>
-      <ul>
-        <li v-for="day in days" :key="day.id">
-          <router-link :to="`/dia/${day.id}`">{{ day.titulo }}</router-link>
-        </li>
-      </ul>
-    </div>
-  </template>
+  <div class="home">
+    <h2>Seleccione un día de entrenamiento</h2>
+
+    <!-- Lista para David -->
+    <h3>Entrenamiento David</h3>
+    <ul>
+      <li>
+        <router-link :to="{ name: 'DayPlan', params: { id: '1' } }">
+          Día 1: Fuerza máxima y explosividad
+        </router-link>
+      </li>
+      <li>
+        <router-link :to="{ name: 'DayPlan', params: { id: '2' } }">
+          Día 2: Fuerza funcional y alta intensidad
+        </router-link>
+      </li>
+    </ul>
+
+    <!-- Lista para Daniela -->
+    <h3>Entrenamiento Daniela</h3>
+    <ul>
+      <li>
+        <router-link :to="{ name: 'DayPlan', params: { id: 'daniela' } }">
+          Programa de Fuerza Moderada - Piernas y Glúteos
+        </router-link>
+      </li>
+    </ul>
+  </div>
+</template>
   
   <script>
   export default {

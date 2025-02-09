@@ -31,7 +31,8 @@ export default {
       if (this.$route.name === 'DayPlan') {
         const mapping = {
           '1': 'Día 1: Fuerza máxima y explosividad',
-          '2': 'Día 2: Fuerza funcional y alta intensidad'
+          '2': 'Día 2: Fuerza funcional y alta intensidad',
+          'daniela': 'Daniela: Programa de Fuerza Moderada - Piernas y Glúteos'
         };
         return mapping[this.$route.params.id] || '';
       }
